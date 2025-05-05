@@ -3,6 +3,12 @@ import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
 import gsap from 'gsap';
 import Footer from './components/Footer'
+import FeaturedRecipes from './components/FeaturedRecipes';
+import CulturalCarousel from './components/CulturalCarousel';
+import Testimonials from './components/Testimonials'
+import SocialFeed from './components/SocialFeed'
+import Quiz from './components/Quiz'
+
 
 const images = ['/image1.jpg', '/image2.jpg', '/image3.jpg', '/image4.jpg', '/image5.jpg'];
 const country = 'India';
@@ -28,7 +34,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <>
+    <div className="relative w-full h-screen ">
       <Image
         src={images[currentImage]}
         alt="Background"
@@ -58,7 +65,13 @@ export default function Home() {
         <p ref={subtitleRef} className="text-2xl mb-2">A Culinary Journey Through Traditions</p>
         <p ref={captionRef} className="text-lg text-gray-300">Discover the story behind every bite</p>
       </div>
-      <Footer />
+      
     </div>
+    <FeaturedRecipes/>
+    <CulturalCarousel />
+    <Testimonials/>
+    <SocialFeed/>
+    <Quiz/>
+    </>
   );
 }
