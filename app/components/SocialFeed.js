@@ -8,12 +8,10 @@ export default function SocialFeed() {
           <iframe 
             src="https://www.instagram.com/p/XXXXX/embed"
             className="w-[400px] h-[450px] rounded-lg shadow-lg border-4 border-yellow-400"
-            allowFullScreen 
           ></iframe>
           <iframe 
             src="https://www.instagram.com/p/YYYY/embed"
             className="w-[400px] h-[450px] rounded-lg shadow-lg border-4 border-red-400"
-            allowFullScreen 
           ></iframe>
         </div>
   

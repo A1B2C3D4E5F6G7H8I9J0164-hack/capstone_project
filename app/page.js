@@ -11,7 +11,6 @@ import SocialFeed from './components/SocialFeed';
 import Quiz from './components/Quiz';
 
 const images = ['/image1.jpg', '/image2.jpg', '/image3.jpg', '/image4.jpg', '/image5.jpg'];
-const country = 'India';
 
 export default function Home() {
   const [currentImage, setCurrentImage] = useState(0);
