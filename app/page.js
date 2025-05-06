@@ -22,7 +22,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -55,15 +55,15 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
 
-        <nav className="absolute top-0 left-0 w-full z-100 text-white px-10 py-4  flex justify-between items-center bg-black/30 backdrop-blur rounded-full">
+        <nav className="absolute top-0 left-0 w-full z-100 text-white px-5 py-4  flex justify-between items-center bg-black/30 backdrop-blur rounded-full fixed">
           <div className="text-2xl font-bold">Cook & Culture</div>
           <div className="flex space-x-15">
-            <Link href="/Cuisine" className="text-lg hover:text-gray-300 transition cursor-pointer">{`Recipe`}</Link>
-            <Link href="/Dish" className="text-lg hover:text-gray-300 transition cursor-pointer">{`Signature Dish`}</Link>
-            <Link href="/Gallery" className="text-lg hover:text-gray-300 transition cursor-pointer">{`Gallery `}</Link>
-            <Link href="/Games" className="text-lg hover:text-gray-300 transition cursor-pointer">{`Games`}</Link>
+            <Link href="/Cuisine" className="text-lg hover:text-red-500 transition cursor-pointer">{`Recipe`}</Link>
+            <Link href="/Dish" className="text-lg hover:text-red-500 transition cursor-pointer">{`Signature Dish`}</Link>
+            <Link href="/Blog" className="text-lg hover:text-red-500 transition cursor-pointer">{`Blog `}</Link>
+            <Link href="/Games" className="text-lg hover:text-red-500 transition cursor-pointer">{`Games`}</Link>
             {isLoggedIn ? (
-              <button onClick={handleLogout} className="text-lg  transition">
+              <button onClick={handleLogout} className="text-lg  transition cursor-pointer">
                 Logout
               </button>
             ) : (
@@ -73,12 +73,14 @@ export default function Home() {
         </nav>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-20 text-white px-4">
+            <div className='backdrop-blur rounded-xl p-5'>
           <h1 ref={titleRef} className="text-5xl font-extrabold mb-4">Cook & Culture</h1>
           <p ref={subtitleRef} className="text-2xl mb-2">A Culinary Journey Through Traditions</p>
           <p ref={captionRef} className="text-lg text-gray-300">Discover the story behind every bite</p>
+          </div>
         </div>
       </div>
-      
+       
       <FeaturedRecipes />
       <CulturalCarousel />
       <Testimonials />

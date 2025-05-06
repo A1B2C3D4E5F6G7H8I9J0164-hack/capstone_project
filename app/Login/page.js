@@ -30,8 +30,8 @@ export default function LoginPage() {
       <div className="relative bg-white/10 backdrop-blur-lg p-8 rounded-lg shadow-2xl w-[400px] z-20 text-white">
         <h2 className="text-3xl font-bold mb-6">{isRegistering ? 'Create an Account' : 'Login to Cook & Culture'}</h2>
 
-        <input type="email" placeholder="Email" className="w-full p-3 rounded-lg mb-4 bg-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 transition" />
-        <input type="password" placeholder="Password" className="w-full p-3 rounded-lg mb-4 bg-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 transition" />
+        <input type="email" placeholder="Email" className="w-full p-3 rounded-lg mb-4 bg-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 transition" required />
+        <input type="password" placeholder="Password" className="w-full p-3 rounded-lg mb-4 bg-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 transition"required />
 
         {loggedIn ? (
           <Link href="/" className="w-full bg-green-500 py-3 rounded-lg text-xl hover:bg-green-700 transition block text-center">
