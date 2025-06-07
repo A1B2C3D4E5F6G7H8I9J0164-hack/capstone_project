@@ -57,7 +57,7 @@ export default function Home() {
         <nav className="absolute top-0 left-0 w-full z-100 text-white px-5 py-4  flex justify-between items-center bg-black/30 backdrop-blur rounded-full fixed">
           <div className="text-2xl font-bold">Cook & Culture</div>
           <div className="flex space-x-15">
-            <Link href="/Cuisine" className="text-lg hover:text-red-500 transition cursor-pointer">{`Recipe`}</Link>
+            <Link href="/Recipe" className="text-lg hover:text-red-500 transition cursor-pointer">{`Recipe`}</Link>
             <Link href="/Dish" className="text-lg hover:text-red-500 transition cursor-pointer">{`Signature Dish`}</Link>
             <Link href="/Blog" className="text-lg hover:text-red-500 transition cursor-pointer">{`Blog `}</Link>
             <Link href="/Games" className="text-lg hover:text-red-500 transition cursor-pointer">{`Games`}</Link>
