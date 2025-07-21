@@ -34,9 +34,8 @@ export default function LoginPage() {
     localStorage.setItem('isLoggedIn', 'true');
   };
   const handleGoogleSignIn = () => {
-    // Simulate Google sign-in
-    setLoggedIn(true);
-    localStorage.setItem('isLoggedIn', 'true');
+    // Redirect to Google sign up page
+    window.location.href = 'https://accounts.google.com/signup';
   };
   const handleLogout = () => {
     setLoggedIn(false);
