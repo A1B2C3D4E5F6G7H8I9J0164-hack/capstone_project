@@ -2,9 +2,6 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { auth, db } from '../firebase';
-import { signInWithEmailAndPassword, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { doc, setDoc } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 
 const images = ['/image1.jpg', '/image2.jpg', '/image3.jpg', '/image4.jpg', '/image5.jpg'];
@@ -31,51 +28,19 @@ export default function LoginPage() {
     }
   }, []);
 
-  const handleLogin = async () => {
-    try {
-      let userCredential;
-      if (isRegistering) {
-        userCredential = await createUserWithEmailAndPassword(auth, email, password);
-        await setDoc(doc(db, 'users', userCredential.user.uid), {
-          uid: userCredential.user.uid,
-          email: userCredential.user.email,
-          provider: 'email',
-        });
-      } else {
-        userCredential = await signInWithEmailAndPassword(auth, email, password);
-      }
-      setLoggedIn(true);
-      localStorage.setItem('isLoggedIn', 'true');
-      router.push('/');
-    } catch (error) {
-      alert(error.message);
-    }
+  const handleLogin = () => {
+    // Simple local login/register simulation
+    setLoggedIn(true);
+    localStorage.setItem('isLoggedIn', 'true');
   };
-
-  const handleGoogleSignIn = async () => {
-    try {
-      const provider = new GoogleAuthProvider();
-      const result = await signInWithPopup(auth, provider);
-      const user = result.user;
-      await setDoc(doc(db, 'users', user.uid), {
-        uid: user.uid,
-        email: user.email,
-        displayName: user.displayName,
-        photoURL: user.photoURL,
-        provider: 'google',
-      }, { merge: true });
-      setLoggedIn(true);
-      localStorage.setItem('isLoggedIn', 'true');
-      router.push('/');
-    } catch (error) {
-      alert(error.message);
-    }
+  const handleGoogleSignIn = () => {
+    // Simulate Google sign-in
+    setLoggedIn(true);
+    localStorage.setItem('isLoggedIn', 'true');
   };
-
   const handleLogout = () => {
     setLoggedIn(false);
     localStorage.removeItem('isLoggedIn');
-    router.push('/Login');
   };
 
   return (
