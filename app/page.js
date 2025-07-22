@@ -60,7 +60,7 @@ export default function Home() {
             <Link href="/Recipe" className="text-lg hover:text-red-500 transition cursor-pointer">{`Recipe`}</Link>
             <Link href="/Dish" className="text-lg hover:text-red-500 transition cursor-pointer">{`Signature Dish`}</Link>
             <Link href="/Blog" className="text-lg hover:text-red-500 transition cursor-pointer">{`Blog `}</Link>
-            <Link href="/Games" className="text-lg hover:text-red-500 transition cursor-pointer">{`Games`}</Link>
+            <Link href="/Contact" className="text-lg hover:text-red-500 transition cursor-pointer">{`About Us`}</Link>
             {isLoggedIn ? (
               <button onClick={handleLogout} className="text-lg  transition cursor-pointer">
                 Logout

@@ -12,7 +12,7 @@ export default function LoginPage() {
   const [loggedIn, setLoggedIn] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const router = useRouter();
+
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -29,12 +29,12 @@ export default function LoginPage() {
   }, []);
 
   const handleLogin = () => {
-    // Simple local login/register simulation
+
     setLoggedIn(true);
     localStorage.setItem('isLoggedIn', 'true');
   };
   const handleGoogleSignIn = () => {
-    // Redirect to Google sign up page
+
     window.location.href = 'https://accounts.google.com/signup';
   };
   const handleLogout = () => {
@@ -49,7 +49,7 @@ export default function LoginPage() {
 
       <div className="relative bg-white/20 backdrop-blur-2xl p-10 rounded-2xl shadow-2xl w-full max-w-md z-20 text-white flex flex-col items-center">
         <div className="flex flex-col items-center mb-6">
-          <Image src="/globe.svg" alt="Logo" width={60} height={60} className="mb-2" />
+          <Image src="data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%20%20%3Cg%20clip-path%3D%22url(%23a)%22%3E%0A%20%20%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M10.27%2014.1a6.5%206.5%200%200%200%203.67-3.45q-1.24.21-2.7.34-.31%201.83-.97%203.1M8%2016A8%208%200%201%200%208%200a8%208%200%200%200%200%2016m.48-1.52a7%207%200%200%201-.96%200H7.5a4%204%200%200%201-.84-1.32q-.38-.89-.63-2.08a40%2040%200%200%200%203.92%200q-.25%201.2-.63%202.08a4%204%200%200%201-.84%201.31zm2.94-4.76q1.66-.15%202.95-.43a7%207%200%200%200%200-2.58q-1.3-.27-2.95-.43a18%2018%200%200%201%200%203.44m-1.27-3.54a17%2017%200%200%201%200%203.64%2039%2039%200%200%201-4.3%200%2017%2017%200%200%201%200-3.64%2039%2039%200%200%201%204.3%200m1.1-1.17q1.45.13%202.69.34a6.5%206.5%200%200%200-3.67-3.44q.65%201.26.98%203.1M8.48%201.5l.01.02q.41.37.84%201.31.38.89.63%202.08a40%2040%200%200%200-3.92%200q.25-1.2.63-2.08a4%204%200%200%201%20.85-1.32%207%207%200%200%201%20.96%200m-2.75.4a6.5%206.5%200%200%200-3.67%203.44%2029%2029%200%200%201%202.7-.34q.31-1.83.97-3.1M4.58%206.28q-1.66.16-2.95.43a7%207%200%200%200%200%202.58q1.3.27%202.95.43a18%2018%200%200%201%200-3.44m.17%204.71q-1.45-.12-2.69-.34a6.5%206.5%200%200%200%203.67%203.44q-.65-1.27-.98-3.1%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%0A%20%20%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%200h16v16H0z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2FclipPath%3E%0A%20%20%3C%2Fdefs%3E%0A%3C%2Fsvg%3E%0A" alt="Logo" width={60} height={60} className="mb-2" />
           <h2 className="text-3xl font-extrabold mb-1 text-center drop-shadow-lg">
             {isRegistering ? 'Create an Account' : 'Login to Cook & Culture'}
           </h2>

@@ -40,7 +40,7 @@ export default function Recipes() {
         Recipe
       </h1>
 
-      <div className={`absolute top-16 left-1/2 transform -translate-x-1/2 text-center transition-all duration-500 ${showRecipes ? 'z-20' : ''}`}>
+      <div className={`absolute top-8 left-1/2 transform -translate-x-1/2 text-center transition-all duration-500 ${showRecipes ? 'z-20' : ''}`}>
         <div className="flex items-center gap-4 backdrop-blur rounded-xl px-6 py-3 border border-gray-100">
           <input
             type="text"
