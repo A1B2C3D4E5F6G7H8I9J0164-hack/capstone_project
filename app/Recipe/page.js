@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
@@ -8,18 +8,28 @@ export default function Recipes() {
   const [showRecipes, setShowRecipes] = useState(false);
 
   useEffect(() => {
-    if (!searchQuery) return;
+    if (!searchQuery) {
+      setRecipes([]);
+      return;
+    }
 
-    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchQuery}`;
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/Data/data.json");
+        const data = await response.json();
 
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        setRecipes(data.meals || []);
-      })
-      .catch(() => {
+        const filtered = data.filter((recipe) =>
+          recipe.title.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+
+        setRecipes(filtered);
+      } catch (error) {
+        console.error("Error loading data:", error);
         setRecipes([]);
-      });
+      }
+    };
+
+    fetchData();
   }, [searchQuery]);
 
   const clearSearch = () => {
@@ -36,7 +46,7 @@ export default function Recipes() {
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/40 to-black"></div>
       </div>
 
-      <h1 style={{ fontSize: "15rem" }} className="absolute inset-0 flex items-center justify-center font-bold bg-gradient-to-r from-gray-300 to-white bg-clip-text text-transparent">
+      <h1 style={{ fontSize: "10rem" }} className="absolute inset-0 flex items-center justify-center font-bold bg-gradient-to-r from-gray-300 to-white bg-clip-text text-transparent">
         Recipe
       </h1>
 
@@ -50,7 +60,7 @@ export default function Recipes() {
               setShowRecipes(true);
             }}
             onFocus={() => setShowRecipes(true)}
-            className="bg-transparent border-none outline-none text-white"
+            className="bg-transparent border-none outline-none text-white placeholder:text-gray-400"
             placeholder="Search recipes..."
           />
           {searchQuery && (
@@ -62,42 +72,28 @@ export default function Recipes() {
       </div>
 
       {showRecipes && recipes.length > 0 && (
-        <div className="mt-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
-          {recipes.map((recipe) => {
-            const prepTime = Math.round(recipe.strInstructions.length / 5) + " min";
-            
-            const ingredients = [];
-            for (let i = 1; i <= 20; i++) {
-              const ingredient = recipe[`strIngredient${i}`];
-              const measure = recipe[`strMeasure${i}`];
-              if (ingredient) {
-                ingredients.push(`${measure} ${ingredient}`);
-              }
-            }
-
-            return (
-              <Link key={recipe.idMeal} href={`/recipes/${recipe.idMeal}`} className="block">
-                <div className="relative group cursor-pointer overflow-hidden rounded-xl bg-black shadow-lg transform transition duration-300 hover:scale-105">
-                  <img 
-                    src={recipe.strMealThumb} 
-                    alt={recipe.strMeal} 
-                    className="w-full h-full object-cover rounded-lg transition-all duration-500 ease-in-out group-hover:brightness-50"
-                  />
-                  <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6">
-                    <h2 className="text-2xl font-bold">{recipe.strMeal}</h2>
-                    <p className="text-sm mt-2 text-gray-300">{recipe.strCategory} • {recipe.strArea} Cuisine</p>
-                    <p className="text-sm mt-1 text-gray-400">🕒 {prepTime}</p>
-                    <p className="text-sm mt-3 text-gray-300">Ingredients:</p>
-                    <ul className="text-xs mt-1">
-                      {ingredients.map((item, index) => (
-                        <li key={index} className="text-gray-400">{item}</li>
-                      ))}
-                    </ul>
-                  </div>
+        <div className="mt-40 px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10 w-full max-w-7xl">
+          {recipes.map((recipe) => (
+            <Link key={recipe.id} href={`/Recipe/${recipe.id}`} className="block">
+              <div className="relative group overflow-hidden rounded-xl bg-black border border-white/10 shadow-xl hover:shadow-2xl transition duration-300 hover:scale-[1.03]">
+                <div className="w-full h-56 bg-gray-800 flex items-center justify-center text-white text-center text-sm ">
+                  {recipe.image ? (
+                    <img
+                      src={recipe.image}
+                      alt={recipe.title}
+                      className="w-full h-full object-cover rounded-t-xl group-hover:brightness-75 transition"
+                    />
+                  ) : (
+                    <span>No Image</span>
+                  )}
                 </div>
-              </Link>
-            );
-          })}
+                <div className="p-4 space-y-2">
+                  <h2 className="text-xl font-bold">{recipe.title}</h2>
+                  <p className="text-sm text-gray-400">{recipe.description}</p>
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
       )}
     </div>

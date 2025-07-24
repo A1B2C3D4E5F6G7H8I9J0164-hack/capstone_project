@@ -1,0 +1,512 @@
+[
+    {
+      "id": 1,
+      "title": "Grilled Mediterranean Chicken Thighs with Olive‑Tomato Salsa",
+      "description": "Herb‑marinated thighs grilled then topped with a vibrant olive and tomato salsa.",
+      "image": "https://media.istockphoto.com/id/1165399909/photo/delicious-meal-on-a-black-plate-top-view-copy-space.jpg?s=612x612&w=0&k=20&c=vrMzS4pY_QjiDtCzpVE3ClKqbU636fb4CKH0nlsduC4=",
+      "difficulty": "Medium",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "totalTime": "4 h 45 min (includes marinating)",
+      "servings": 4,
+      "calories": 550,
+      "rating": 4.7,
+      "tags": ["Mediterranean", "Thighs", "Salsa"],
+      "ingredients": [
+        "4 chicken thighs",
+        "1/4 cup olive oil",
+        "1/4 cup olive brine",
+        "2 tsp anchovy paste",
+        "Garlic, herbs (oregano, parsley, thyme)",
+        "1¼ cups olives",
+        "Cherry tomatoes",
+        "Shallot, capers, herbs for salsa"
+      ],
+      "instructions": [
+        "Marinate thighs 4–12 h in oil, brine, garlic, herbs.",
+        "Grill on medium heat skin‑side up first, then flip until internal temp reaches 165 °F.",
+        "Let rest, then top with chopped olive‑tomato salsa."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 2,
+      "title": "Grilled Mediterranean Chicken Kebabs",
+      "description": "Cubed chicken and vegetables threaded on skewers after marinating in lemon‑garlic herbs.",
+      "image": "https://media.istockphoto.com/id/503337620/photo/grilled-halibut-with-spinach-leeks-and-pine-nuts.jpg?s=612x612&w=0&k=20&c=bcrySCiUxAEhyRm8Hd5W9wLvnivMUA7o2xkM-i_lpT8=",
+      "difficulty": "Easy",
+      "prepTime": "40 min",
+      "cookTime": "10 min",
+      "totalTime": "55 min",
+      "servings": 10,
+      "calories": 228,
+      "rating": 4.8,
+      "tags": ["Skewers", "Vegetables", "Easy"],
+      "ingredients": [
+        "Boneless chicken breasts, cubed",
+        "Bell peppers, onion, cherry tomatoes",
+        "Olive oil, lemon juice, garlic, oregano"
+      ],
+      "instructions": [
+        "Marinate chicken and veggies 1‑4 h.",
+        "Thread chicken and vegetables onto skewers.",
+        "Grill 5‑6 min per side until cooked through."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 3,
+      "title": "Healthy Grilled Mediterranean Chicken Kabobs",
+      "description": "Chicken and garden veggies marinated in lemon‑oregano garlic oil, skewered and grilled juicy.",
+      "image": "https://media.istockphoto.com/id/1214416414/photo/barbecued-salmon-fried-potatoes-and-vegetables-on-wooden-background.jpg?s=612x612&w=0&k=20&c=Y8RYbZFcvec-FXMMuoU-qkprC3TUFNiw3Ysoe8Drn6g=",
+      "difficulty": "Easy",
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "totalTime": "55 min",
+      "servings": 4,
+      "calories": 204,
+      "rating": 4.9,
+      "tags": ["Healthy", "Kabob", "Low‑calorie"],
+      "ingredients": [
+        "1.5 lb chicken breast cubes",
+        "Zucchini, bell pepper, red onion, cherry tomatoes",
+        "Olive oil, lemon juice, garlic, oregano"
+      ],
+      "instructions": [
+        "Marinate 30 min to 4 h.",
+        "Assemble skewers alternating chicken with veggies.",
+        "Brush reserved marinade and grill 5‑6 min each side."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 4,
+      "title": "Grilled Lemon Herb Mediterranean Chicken Salad",
+      "description": "Grilled chicken served over salad greens with olives, tomato, cucumber and herb‑lemon dressing.",
+      "image": "https://media.istockphoto.com/id/1305699663/photo/seafood-platter-grilled-lobster-shrimps-scallops-langoustines-octopus-squid-on-white-plate.jpg?s=612x612&w=0&k=20&c=iEwdxon7CJ0wQEDy8-kwnz7TLdknVw05vaa-Qc_aHow=",
+      "difficulty": "Easy",
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "totalTime": "25 min",
+      "servings": 4,
+      "calories": 350,
+      "rating": 4.8,
+      "tags": ["Salad", "Light", "Herb"],
+      "ingredients": [
+        "Boneless chicken thighs or breasts",
+        "Olive oil, lemon juice, red wine vinegar",
+        "Parsley, basil, garlic, oregano, salt, pepper",
+        "Lettuce, cucumber, tomato, avocado, olives"
+      ],
+      "instructions": [
+        "Whisk marinade; marinate chicken 15 min–2 h.",
+        "Grill chicken until done; let rest, then slice.",
+        "Toss salad greens with remaining marinade, top with chicken."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 5,
+      "title": "Spicy Harissa Grilled Chicken Breasts",
+      "description": "Zesty and smoky harissa‑marinated chicken breasts grilled rapidly for bold flavor.",
+      "image": "https://media.istockphoto.com/id/996188546/photo/assorted-indian-food-for-lunch-or-dinner-rice-lentils-paneer-dal-makhani-naan-chutney-spices.jpg?s=612x612&w=0&k=20&c=lftTa8_81T6ZVbFYGy6OeZHbWphwVX9T8SyrWkojf7Y=",
+      "difficulty": "Medium",
+      "prepTime": "15 min",
+      "cookTime": "10 min",
+      "totalTime": "25 min",
+      "servings": 4,
+      "calories": 400,
+      "rating": 4.6,
+      "tags": ["Spicy", "Harissa", "Quick"],
+      "ingredients": [
+        "4 chicken breasts",
+        "3 tbsp harissa paste",
+        "2 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "2 garlic cloves, minced",
+        "Smoked paprika, salt, pepper, cilantro"
+      ],
+      "instructions": [
+        "Combine marinade and marinate chicken at least 30 min.",
+        "Grill 5‑7 min per side until 165 °F.",
+        "Let rest, garnish with chopped cilantro."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 6,
+      "title": "Mediterranean‑Inspired Spicy Grilled Chicken (Legs)",
+      "description": "Chicken legs marinated in ginger‑garlic and chili paste, grilled or oven‑baked for spicy kick.",
+      "image": "https://media.istockphoto.com/id/104704117/photo/restaurant-plates.jpg?s=612x612&w=0&k=20&c=MhFdN_qVgzoHov-kgFx0qWSW0nZht4lZV1zinC3Ea44=",
+      "difficulty": "Medium",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "totalTime": "45 min (excluding marinate)",
+      "servings": 8,
+      "calories": 500,
+      "rating": 4.5,
+      "tags": ["Spicy", "Legs", "Bold"],
+      "ingredients": [
+        "Chicken legs",
+        "Roasted red chili paste, ginger‑garlic paste",
+        "Onion powder, chili flakes, cumin, oregano, parsley",
+        "Lemon juice, olive oil"
+      ],
+      "instructions": [
+        "Marinate at least 3‑4 h or overnight.",
+        "Grill or bake at 425 °F about 20‑25 min until done.",
+        "Serve with tabbouleh or pita."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 7,
+      "title": "Whole Grilled Mediterranean‑Style Chicken",
+      "description": "Whole chicken marinated in lemon‑garlic herbs, grilled indirect for crispy skin and succulent meat.",
+      "image": "https://media.istockphoto.com/id/104704117/photo/restaurant-plates.jpg?s=612x612&w=0&k=20&c=MhFdN_qVgzoHov-kgFx0qWSW0nZht4lZV1zinC3Ea44=",
+      "difficulty": "Medium",
+      "prepTime": "20 min",
+      "cookTime": "1 h",
+      "totalTime": "3 h (includes marinating)",
+      "servings": 6,
+      "calories": 600,
+      "rating": 4.9,
+      "tags": ["Whole Chicken", "Impressive", "Garlic"],
+      "ingredients": [
+        "1 whole chicken",
+        "Garlic, olive oil, lemon juice, herbs",
+        "Sides: toum sauce, grilled vegetables"
+      ],
+      "instructions": [
+        "Marinate 2 h or more in garlic‑citrus herb mix.",
+        "Grill indirect heat 1 h until skin crispy and internal temp reached.",
+        "Carve and serve with sauce and sides."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 8,
+      "title": "Mediterranean Chicken Skewers with Yogurt Marinade",
+      "description": "Chicken thighs marinated in yogurt‑spice mix then skewered and grilled Mediterranean‑style.",
+      "image": "https://media.istockphoto.com/id/1163676678/photo/lamb-curry-lamb-vindaloo-in-a-bowl-on-white-background.jpg?s=612x612&w=0&k=20&c=wGexhfqg5Qx274Dv7UxLmuN7H1zetH9yDAqUU9KV7e4=",
+      "difficulty": "Medium",
+      "prepTime": "15 min",
+      "cookTime": "20 min",
+      "totalTime": "1 h (including marinade)",
+      "servings": 4,
+      "calories": 300,
+      "rating": 4.7,
+      "tags": ["Yogurt", "Skewers", "Tender"],
+      "ingredients": [
+        "Chicken thighs, cubed",
+        "Greek yogurt, lemon juice, olive oil",
+        "Paprika, turmeric, garlic, salt, pepper"
+      ],
+      "instructions": [
+        "Mix yogurt‑spice marinade; coat chicken and refrigerate 1+ h.",
+        "Thread onto skewers; grill turning until golden and cooked.",
+        "Serve hot with sides."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 9,
+      "title": "Lemon Herb Mediterranean Chicken Breasts",
+      "description": "Classic lemon‑garlic herb marinade grilled chicken breasts—juicy and fragrant.",
+      "image": "https://media.istockphoto.com/id/1141120666/photo/healhy-breakfast-toast-with-avocado-egg.jpg?s=612x612&w=0&k=20&c=WSr6b-oo9Qd-npEfozFi_PS9DtA8yyKL5Unp0bY4O-I=",
+      "difficulty": "Easy",
+      "prepTime": "30 min",
+      "cookTime": "12 min",
+      "totalTime": "42 min",
+      "servings": 4,
+      "calories": 350,
+      "rating": 4.6,
+      "tags": ["Classic", "Herb", "Breasts"],
+      "ingredients": [
+        "4 boneless chicken breasts",
+        "1/4 cup olive oil",
+        "2 lemons juice and zest",
+        "Garlic, fresh rosemary, thyme, salt, pepper"
+      ],
+      "instructions": [
+        "Whisk marinade; marinate at least 30 min.",
+        "Grill 6‑7 min each side until cooked.",
+        "Let rest, then slice and serve."
+      ],
+      "isSignature": false
+    },
+    {
+      "id": 10,
+      "title": "Sheet‑Pan Mediterranean Chicken with Vegetables",
+      "description": "Chicken thighs roasted with tomatoes, gnocchi, veggies and Mediterranean seasonings on one pan.",
+      "image": "https://media.istockphoto.com/id/1157283318/photo/bitter-gourd-fry-an-indian-cuisine.jpg?s=612x612&w=0&k=20&c=wxuxQU0I8GtN79iKXx5dBo-bardWcBub47CDMYlAjq4=",
+      "difficulty": "Easy",
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "totalTime": "35 min",
+      "servings": 4,
+      "calories": 400,
+      "rating": 4.5,
+      "tags": ["Sheet‑Pan", "Vegetables", "Easy"],
+      "ingredients": [
+        "Chicken thighs",
+        "Cherry tomatoes, gnocchi, Brussels sprouts",
+        "Olive oil, garlic, oregano, vinegar"
+      ],
+      "instructions": [
+        "Toss ingredients on sheet pan, season well.",
+        "Roast at 425 °F 20‑25 min until chicken cooked and vegetables tender.",
+        "Serve warm."
+      ],
+      "isSignature": false
+    },
+    {
+        "id": 11,
+        "title": "Grilled Chicken Thighs with Dill-Greek Yogurt Sauce",
+        "description": "Juicy grilled thighs paired with tangy dill‑Greek yogurt sauce.",
+        "image": "https://media.istockphoto.com/id/866584830/photo/roasted-potatoes-on-wooden-kitchen-table.jpg?s=612x612&w=0&k=20&c=87aARcyig_X1Th-2fH5cqyflHM4101NbDVwrA2j8o4I=",
+        "difficulty": "Medium",
+        "prepTime": "10 min",
+        "cookTime": "10 min",
+        "totalTime": "2 h (incl. marinate)",
+        "servings": 4,
+        "calories": 450,
+        "rating": 4.8,
+        "tags": ["Yogurt Sauce", "Thighs", "Herby"],
+        "ingredients": [
+          "Boneless chicken thighs",
+          "Olive oil, lemon juice, garlic, oregano, dill",
+          "Greek yogurt, fresh dill, lemon zest, salt"
+        ],
+        "instructions": [
+          "Marinate thighs 1–2 h in oil, lemon, garlic, herbs.",
+          "Grill 7–10 min until 165 °F internal temp.",
+          "Mix yogurt sauce; serve chicken topped with sauce."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 12,
+        "title": "Greek‑Style Chicken Kabobs with Lemon-Herb Marinade",
+        "description": "Chicken and veggies skewered with fresh lemon‑garlic marinade.",
+        "image": "https://media.istockphoto.com/id/1163726141/photo/baked-salmon-with-creamy-spinach-mushrooms-sauce-on-a-dark-background-top-view-salmon.jpg?s=612x612&w=0&k=20&c=WhH1672daSVAnfGP3790KZ1cUFZysYwn1Bgx2k55UKU=",
+        "difficulty": "Easy",
+        "prepTime": "30 min",
+        "cookTime": "12 min",
+        "totalTime": "1 h",
+        "servings": 4,
+        "calories": 230,
+        "rating": 4.7,
+        "tags": ["Kabobs", "Veggies", "Weeknight"],
+        "ingredients": [
+          "Chicken breast cubes",
+          "Bell peppers, onions, cherry tomatoes",
+          "Olive oil, lemon juice, red wine vinegar, oregano, garlic"
+        ],
+        "instructions": [
+          "Marinate chicken & veggies 30–60 min.",
+          "Thread onto skewers.",
+          "Grill 5–6 min per side; brush with reserved marinade."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 13,
+        "title": "Mediterranean Grilled Chicken Breasts",
+        "description": "Bright lemon‑garlic herb grilled breasts—simple, flavorful, classic.",
+        "image": "https://media.istockphoto.com/id/1191425335/photo/american-food-concept-grilled-pork-ribs-with-grilled-sauce-with-smoke-spices-and-rosemary.jpg?s=612x612&w=0&k=20&c=TXvrzSQ7JndB40X8BzNyInU0e78p5pdg0qFxsxZ5e_8=",
+        "difficulty": "Easy",
+        "prepTime": "20 min",
+        "cookTime": "15 min",
+        "totalTime": "35 min",
+        "servings": 4,
+        "calories": 350,
+        "rating": 4.8,
+        "tags": ["Classic", "Breasts", "Lemon"],
+        "ingredients": [
+          "Chicken breasts",
+          "Olive oil, lemon juice, parsley, garlic, paprika, oregano"
+        ],
+        "instructions": [
+          "Marinate 20 min to 2 h.",
+          "Grill 5–7 min per side.",
+          "Rest then serve with lemon wedges."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 14,
+        "title": "Grilled Chicken with Olive & Tomato Salsa",
+        "description": "Herbed thighs grilled then topped with chunky olive‑tomato salsa.",
+        "image": "https://media.istockphoto.com/id/1077980738/photo/green-peas-or-matar-paneer-curry-recipe-served-in-a-bowl-selective-focus.jpg?s=612x612&w=0&k=20&c=SShuhVPIWBpUaJXqvdWqjPrh0AqsR6VR68GInZlyw6Y=",
+        "difficulty": "Medium",
+        "prepTime": "15 min",
+        "cookTime": "30 min",
+        "totalTime": "4 h 45 min (with marinade)",
+        "servings": 4,
+        "calories": 550,
+        "rating": 4.7,
+        "tags": ["Thighs", "Salsa", "Savor"],
+        "ingredients": [
+          "Chicken thighs",
+          "Olive oil, brine, anchovy paste, herbs, garlic",
+          "Salsa: olives, tomatoes, shallot, capers, herbs"
+        ],
+        "instructions": [
+          "Marinate 4‑12 h.",
+          "Grill thighs skin‑side up then down until crisp.",
+          "Serve topped with olive‑tomato salsa."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 15,
+        "title": "Cucumber‑Yogurt Marinated Grilled Chicken",
+        "description": "Chicken marinated in olive oil, vinegar, garlic and dill, served with cucumber‑yogurt sauce.",
+        "image": "https://media.istockphoto.com/id/1357426624/photo/risotto-with-shrimps-on-black-wooden-table.jpg?s=612x612&w=0&k=20&c=zFThCVh1yI9ZIOkAcagHV38L7y1IT-vTKb2BvAls5CA=",
+        "difficulty": "Easy",
+        "prepTime": "10 min",
+        "cookTime": "20 min",
+        "totalTime": "2 h",
+        "servings": 4,
+        "calories": 400,
+        "rating": 4.6,
+        "tags": ["Yogurt", "Refreshing", "Herby"],
+        "ingredients": [
+          "Chicken breasts or thighs",
+          "Olive oil, red wine vinegar, garlic, dill",
+          "Cucumber, yogurt, garlic, dill, lemon"
+        ],
+        "instructions": [
+          "Marinate chicken ≥2 h.",
+          "Grill until cooked through.",
+          "Prepare cucumber‑yogurt sauce; serve on side."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 16,
+        "title": "Spicy Harissa Grilled Chicken Breasts",
+        "description": "Bold and smoky harissa‑spiced chicken grilled quickly for heat and flavor.",
+        "image": "https://media.istockphoto.com/id/1165889522/photo/indian-food-chicken-vindaloo-curry-over-basmati-rice.jpg?s=612x612&w=0&k=20&c=tRUPBqWOHYy7DAEeFYSlYNVjTpj7vjLf9QM5iZyGHSk=",
+        "difficulty": "Medium",
+        "prepTime": "15 min",
+        "cookTime": "10 min",
+        "totalTime": "25 min",
+        "servings": 4,
+        "calories": 400,
+        "rating": 4.6,
+        "tags": ["Spicy", "Harissa", "Bold"],
+        "ingredients": [
+          "Chicken breasts",
+          "Harissa paste, olive oil, lemon juice, garlic, paprika, cilantro"
+        ],
+        "instructions": [
+          "Marinate ≥30 min.",
+          "Grill 5–7 min per side.",
+          "Garnish with chopped cilantro."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 17,
+        "title": "Lemony Marinated Chicken Skewers",
+        "description": "Bright, citrusy Mediterranean‑Middle Eastern skewers with herbs and spices.",
+        "image": "https://media.istockphoto.com/id/855749956/photo/roasted-sea-bream-fish-with-lemon-slices.jpg?s=612x612&w=0&k=20&c=nQhzbjXPnpBDexnk3oK-lU_twHhdTC5R2MixllKbHXE=",
+        "difficulty": "Easy",
+        "prepTime": "15 min",
+        "cookTime": "15 min",
+        "totalTime": "45 min",
+        "servings": 6,
+        "calories": 240,
+        "rating": 4.9,
+        "tags": ["Skewers", "Citrus", "Fresh"],
+        "ingredients": [
+          "Chicken thighs or breasts",
+          "Lemon juice, garlic, herbs, spices (optional cayenne)"
+        ],
+        "instructions": [
+          "Marinate 30 min.",
+          "Thread onto skewers; grill until done.",
+          "Serve with toum or yogurt sauce."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 18,
+        "title": "Tahini‑Sauced Chicken Skewers with Chickpeas & Feta",
+        "description": "Skewered grilled chicken served with tahini sauce, spicy chickpeas and feta-laced salad.",
+        "image": "https://media.istockphoto.com/id/530417618/photo/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg?s=612x612&w=0&k=20&c=eMT5EFd7EzQgaft2Rq36Piy6qH_kV_m7_m-kjyUe8yQ=",
+        "difficulty": "Medium",
+        "prepTime": "10 min",
+        "cookTime": "15 min",
+        "totalTime": "35 min",
+        "servings": 6,
+        "calories": 420,
+        "rating": 4.8,
+        "tags": ["Tahini", "Skewers", "Complex"],
+        "ingredients": [
+          "Chicken breast skewers",
+          "Greek yogurt, garlic, lemon, paprika, oregano",
+          "Chickpeas (spiced), tahini sauce, feta, pita"
+        ],
+        "instructions": [
+          "Marinate and grill chicken.",
+          "Serve with spiced chickpeas, tahini sauce and pita salad."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 19,
+        "title": "Whole Grilled Chicken with Lemon‑Garlic‑Herbs",
+        "description": "Butterflied whole chicken marinated and grilled indirectly for crispy skin & moist meat.",
+        "image": "https://media.istockphoto.com/id/618201406/photo/typical-spanish-tapas-concept-top-view.jpg?s=612x612&w=0&k=20&c=9xO1IseJIFXSfXF8gaHw53T-zX7arDx9dzCdIarU5-8=",
+        "difficulty": "Medium",
+        "prepTime": "20 min",
+        "cookTime": "60 min",
+        "totalTime": "3 h",
+        "servings": 6,
+        "calories": 650,
+        "rating": 4.9,
+        "tags": ["Whole Chicken", "Impressive", "Garlic"],
+        "ingredients": [
+          "Whole chicken, garlic, olive oil, lemon, herbs",
+          "Sides: grilled veggies, toum or yogurt sauce"
+        ],
+        "instructions": [
+          "Marinate 2+ h.",
+          "Grill indirect for 60 min or until done.",
+          "Carve and serve with sides."
+        ],
+        "isSignature": false
+      },
+      {
+        "id": 20,
+        "title": "Grilled Chicken Wings with Mediterranean Spices & Yogurt Dip",
+        "description": "Flavorful wings marinated in spices, grilled until crisp, served with yogurt dip and salad.",
+        "image": "https://media.istockphoto.com/id/182409111/photo/shrimp-and-beef-skewers.jpg?s=612x612&w=0&k=20&c=FEw5fJcT787lPMBTBsT68RgBZN64x8XQkR1xy7B9NXk=",
+        "difficulty": "Medium",
+        "prepTime": "15 min",
+        "cookTime": "20 min",
+        "totalTime": "2 h",
+        "servings": 4,
+        "calories": 550,
+        "rating": 4.7,
+        "tags": ["Wings", "Spiced", "Dip"],
+        "ingredients": [
+          "Chicken wings",
+          "Olive oil, lemon juice, garlic, oregano, cumin, paprika, cayenne",
+          "Yogurt, tahini, tomatoes, cucumber, parsley, mint"
+        ],
+        "instructions": [
+          "Marinate wings 1–2 h.",
+          "Grill crowded for 20 min, turning every 5 min.",
+          "Mix salad and yogurt‑tahini dip; serve together."
+        ],
+        "isSignature": false
+      }
+    
+    
+  ]
+  
+   
