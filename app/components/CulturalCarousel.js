@@ -35,7 +35,7 @@ export default function CulturalCarousel() {
       </h2>
       <div className="relative px-10">
         <div
-          className="flex space-x-8 overflow-x-auto scrollbar-hide"
+          className="flex space-x-8 overflow-x-auto scrollbar-hide allow-x-scroll"
           ref={scrollRef}
         >
           {stories.map((story, index) => (
