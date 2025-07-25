@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative w-screen min-h-screen overflow-y-auto scrollbar-hide ">
+      <div className="relative w-screen min-h-screen overflow-y-auto  overflow-x-auto scrollbar-hide ">
         <Image
           src={images[currentImage]}
           alt="Background"
