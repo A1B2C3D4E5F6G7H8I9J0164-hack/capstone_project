@@ -44,7 +44,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative w-full h-screen">
+      <div className="relative w-screen min-h-screen overflow-y-auto scrollbar-hide ">
         <Image
           src={images[currentImage]}
           alt="Background"
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="text-2xl font-bold">Cook & Culture</div>
           <div className="flex space-x-15">
             <Link href="/Recipe" className="text-lg hover:text-red-500 transition cursor-pointer">{`Recipe`}</Link>
-            <Link href="/Dish" className="text-lg hover:text-red-500 transition cursor-pointer">{`Signature Dish`}</Link>
+            <Link href="/signatureDish" className="text-lg hover:text-red-500 transition cursor-pointer">{`Signature Dish`}</Link>
             <Link href="/Blog" className="text-lg hover:text-red-500 transition cursor-pointer">{`Blog `}</Link>
             <Link href="/Contact" className="text-lg hover:text-red-500 transition cursor-pointer">{`About Us`}</Link>
             {isLoggedIn ? (
