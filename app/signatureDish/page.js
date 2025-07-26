@@ -22,11 +22,17 @@ export default function SignatureDishes() {
 
   return (
     <div className="min-h-screen bg-black text-white p-6">
-      <div className='flex justify-center items-center'> 
-      <Image src="data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%20%20%3Cg%20clip-path%3D%22url(%23a)%22%3E%0A%20%20%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M10.27%2014.1a6.5%206.5%200%200%200%203.67-3.45q-1.24.21-2.7.34-.31%201.83-.97%203.1M8%2016A8%208%200%201%200%208%200a8%208%200%200%200%200%2016m.48-1.52a7%207%200%200%201-.96%200H7.5a4%204%200%200%201-.84-1.32q-.38-.89-.63-2.08a40%2040%200%200%200%203.92%200q-.25%201.2-.63%202.08a4%204%200%200%201-.84%201.31zm2.94-4.76q1.66-.15%202.95-.43a7%207%200%200%200%200-2.58q-1.3-.27-2.95-.43a18%2018%200%200%201%200%203.44m-1.27-3.54a17%2017%200%200%201%200%203.64%2039%2039%200%200%201-4.3%200%2017%2017%200%200%201%200-3.64%2039%2039%200%200%201%204.3%200m1.1-1.17q1.45.13%202.69.34a6.5%206.5%200%200%200-3.67-3.44q.65%201.26.98%203.1M8.48%201.5l.01.02q.41.37.84%201.31.38.89.63%202.08a40%2040%200%200%200-3.92%200q.25-1.2.63-2.08a4%204%200%200%201%20.85-1.32%207%207%200%200%201%20.96%200m-2.75.4a6.5%206.5%200%200%200-3.67%203.44%2029%2029%200%200%201%202.7-.34q.31-1.83.97-3.1M4.58%206.28q-1.66.16-2.95.43a7%207%200%200%200%200%202.58q1.3.27%202.95.43a18%2018%200%200%201%200-3.44m.17%204.71q-1.45-.12-2.69-.34a6.5%206.5%200%200%200%203.67%203.44q-.65-1.27-.98-3.1%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%0A%20%20%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%200h16v16H0z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2FclipPath%3E%0A%20%20%3C%2Fdefs%3E%0A%3C%2Fsvg%3E%0A" alt="Logo" width={60} height={60} className="mb-2" />
-      <h1 className="text-5xl font-bold text-center mb-10 drop-shadow bg-gradient-to-r from-black via-gray-300 to-white bg-clip-text text-transparent">
-        🌍 World Signature Dishes
-      </h1>
+      <div className='flex flex-col items-center'>
+        <Image
+          src="data:image/svg+xml;utf8,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2016%2016%22%3E%0A%20%20%3Cg%20clip-path%3D%22url(%23a)%22%3E%0A%20%20%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M10.27%2014.1a6.5%206.5%200%200%200%203.67-3.45q-1.24.21-2.7.34-.31%201.83-.97%203.1M8%2016A8%208%200%201%200%208%200a8%208%200%200%200%200%2016m.48-1.52a7%207%200%200%201-.96%200H7.5a4%204%200%200%201-.84-1.32q-.38-.89-.63-2.08a40%2040%200%200%200%203.92%200q-.25%201.2-.63%202.08a4%204%200%200%201-.84%201.31zm2.94-4.76q1.66-.15%202.95-.43a7%207%200%200%200%200-2.58q-1.3-.27-2.95-.43a18%2018%200%200%201%200%203.44m-1.27-3.54a17%2017%200%200%201%200%203.64%2039%2039%200%200%201-4.3%200%2017%2017%200%200%201%200-3.64%2039%2039%200%200%201%204.3%200m1.1-1.17q1.45.13%202.69.34a6.5%206.5%200%200%200-3.67-3.44q.65%201.26.98%203.1M8.48%201.5l.01.02q.41.37.84%201.31.38.89.63%202.08a40%2040%200%200%200-3.92%200q.25-1.2.63-2.08a4%204%200%200%201%20.85-1.32%207%207%200%200%201%20.96%200m-2.75.4a6.5%206.5%200%200%200-3.67%203.44%2029%2029%200%200%201%202.7-.34q.31-1.83.97-3.1M4.58%206.28q-1.66.16-2.95.43a7%207%200%200%200%200%202.58q1.3.27%202.95.43a18%2018%200%200%201%200-3.44m.17%204.71q-1.45-.12-2.69-.34a6.5%206.5%200%200%200%203.67%203.44q-.65-1.27-.98-3.1%22%20fill%3D%22%23fff%22%3E%3C%2Fpath%3E%0A%20%20%3C%2Fg%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3CclipPath%20id%3D%22a%22%3E%0A%20%20%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%200h16v16H0z%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2FclipPath%3E%0A%20%20%3C%2Fdefs%3E%0A%3C%2Fsvg%3E%0A"
+          alt="Logo"
+          width={60}
+          height={60}
+          className="mb-2"
+        />
+        <h1 className="text-5xl font-bold text-center mb-10 drop-shadow bg-gradient-to-r from-black via-gray-300 to-white bg-clip-text text-transparent">
+          🌍 World Signature Dishes
+        </h1>
       </div>
 
       <div className="max-w-md mx-auto mb-12">
@@ -49,14 +55,25 @@ export default function SignatureDishes() {
             className="bg-zinc-900 rounded-2xl shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transform transition duration-300"
           >
             <img src={dish.image} alt={dish.dish} className="w-full h-48 object-cover" />
-            <div className="p-5">
-              <h2 className="text-xl font-semibold bg-white bg-clip-text text-transparent">
+            <div className="p-5 text-center space-y-3">
+              <h2 className="text-2xl font-bold bg-white bg-clip-text text-transparent">
                 {dish.dish}
               </h2>
-              <p className="text-sm text-gray-400 mb-3">Country: {dish.country}</p>
+              <p className="text-sm text-gray-400">Origin: <span className="text-white font-medium">{dish.country}</span></p>
+              <p className="text-sm text-gray-300 italic">
+                {dish.dish === 'Butter Chicken' && 'A creamy, spiced tomato-based curry often paired with naan or rice.'}
+                {dish.dish === 'Margherita Pizza' && 'A symbol of Italian pride — tomato, basil, and mozzarella on crisp dough.'}
+                {dish.dish === 'Sushi' && 'Vinegared rice paired with seafood, vegetables, and nori — a Japanese artform.'}
+                {dish.dish === 'Tacos Al Pastor' && 'Mexican street food inspired by Lebanese shawarma, packed with flavor.'}
+                {dish.dish === 'Croissants' && 'Flaky French pastry made with buttery layers — a breakfast icon.'}
+                {dish.dish === 'Pad Thai' && 'Stir-fried rice noodles with tamarind, tofu, peanuts, and lime zest.'}
+              </p>
+              <p className="text-xs text-gray-500">
+                💡 Did you know? This dish has influenced global cuisine and continues to inspire chefs worldwide.
+              </p>
               <button
                 onClick={() => setSelectedDish(dish)}
-                className="bg-red-500 hover:bg-lime-600 text-black px-4 py-2 rounded-lg shadow"
+                className="bg-red-500 hover:bg-lime-600 text-black px-4 py-2 rounded-lg shadow mt-2"
               >
                 Leave a Review
               </button>
